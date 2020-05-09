@@ -16,9 +16,9 @@ div{
   align-items: center;
   justify-content: space-around;
   background: linear-gradient(-45deg, #fc466b, #3f5efb);
-  background-size: 200% 200%;
+  background-size: 400% 400%;
   overflow: hidden;
-  animation: colorshift 1s ease infinite;
+  animation: colorshift 5s ease infinite;
 }
 h1{
   color: white;
@@ -33,7 +33,7 @@ h1{
     background-position: 0% 50%;
   }
   50%{
-    background-position: 75% 100%;
+    background-position: 175% 200%;
   }
   100%{
     background-position: 0% 50%;
