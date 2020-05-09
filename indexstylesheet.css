@@ -16,7 +16,7 @@ div{
   align-items: center;
   justify-content: space-around;
   background: linear-gradient(-45deg, #000000, #3f5efb);
-  background-size: 400% 400%;
+  background-size: 200% 200%;
   overflow: hidden;
   animation: colorshift 1s ease infinite;
 }
