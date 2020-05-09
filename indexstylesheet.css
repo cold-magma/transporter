@@ -15,15 +15,18 @@ div{
   display:flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(-45deg, #fc466b, #3f5efb);
-  background-size: 400% 400%;
-  animation: bgshift 1s ease infinite;
+  
 }
 h1{
   color: white;
   font-family: Jost, sans-serif;
   font-size: 3rem;
   letter-spacing: 1rem;
+  background: linear-gradient(-45deg, #fc466b, #3f5efb);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: bgshift 1s ease infinite;
 }
 @keyframes bgshift {
   0%{
