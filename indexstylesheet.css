@@ -2,3 +2,22 @@
   padding:0;
   margin:0;
 }
+body{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #333333, #dd1818);
+  background-size: 400% 400%;
+  animation: gradientshift 5s ease-in-out infinite;
+}
+@keyframes gradientshift{
+  0%{
+    background-position: 50% 100%;
+  }
+  50‰{
+    background-position: 200% 200%;
+  }
+  100%{
+    background-position: 50% 100%;
+  }
+}
