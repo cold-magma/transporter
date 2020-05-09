@@ -10,16 +10,17 @@ body{
   justify-content: space-around;
   background: linear-gradient(45deg, #333333, #dd1818);
   background-size: 200% 200%;
+  background-position: 0% 0%;
   animation: shift 5s ease infinite;
 }
 @keyframes shift{
   0%{
-    background-position: 0 0;
+    background-position: 0% 0%;
   }
   50‰{
     background-position: 200% 200%;
   }
   100%{
-    background-position: 0 0;
+    background-position: 0% 0%;
   }
 }
