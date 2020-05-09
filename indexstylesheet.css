@@ -26,9 +26,9 @@ h1{
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
   background-size: 400% 400%;
-  animation: bgshift 1s ease infinite;
+  animation: colorshift 1s ease infinite;
 }
-@keyframes bgshift {
+@keyframes colorshift {
   0%{
     background-position: 0% 50%;
   }
