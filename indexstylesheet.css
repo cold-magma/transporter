@@ -26,7 +26,7 @@ h1{
   font-size: 3rem;
   letter-spacing: 1rem;
 }
-@keyframes bgshift{
+@keyframes bgshift {
   0%{
     background-position: 0% 50%;
   }
