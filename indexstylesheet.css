@@ -27,7 +27,7 @@ h1{
   font-size: 3rem;
   letter-spacing: 1rem;
   overflow: hidden;
-  background:linear-gradient(-45deg, #30e8bf, #ff8235);
+  background:linear-gradient(-45deg, #7cd47b, #30e8bf, #7b9ed4);
   background-size: 200% 200%;
   background-repeat: no-repeat;
   -webkit-background-clip:text;
