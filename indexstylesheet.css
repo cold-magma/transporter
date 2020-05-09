@@ -15,7 +15,7 @@ div{
   display:flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(-45deg, #fc466b, #3f5efb);
+  background: linear-gradient(-45deg, #ec2f4b, #3f5efb);
   background-size: 400% 400%;
   background-repeat: no-repeat;
   overflow: hidden;
