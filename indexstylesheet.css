@@ -15,7 +15,9 @@ div{
   display:flex;
   align-items: center;
   justify-content: space-around;
-  
+  background: linear-gradient(-45deg, #000000, #3f5efb);
+  background-size: 400% 400%;
+  animation: colorshift 1s ease infinite;
 }
 h1{
   color: white;
@@ -23,11 +25,7 @@ h1{
   font-size: 3rem;
   letter-spacing: 1rem;
   overflow: hidden;
-  background: linear-gradient(-45deg, #000000, #3f5efb);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color: transparent;
-  background-size: 400% 400%;
-  animation: colorshift 1s ease infinite;
+  
 }
 @keyframes colorshift {
   0%{
