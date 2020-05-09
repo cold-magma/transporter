@@ -8,9 +8,9 @@ body{
   justify-content: space-around;
   background: linear-gradient(45deg, #333333, #dd1818);
   background-size: 200% 200%;
-  animation: gradientshift 5s ease-in-out infinite;
+  animation: shift 5s ease infinite;
 }
-@keyframes gradientshift{
+@keyframes shift{
   0%{
     background-position: 0 0;
   }
