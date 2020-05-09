@@ -18,7 +18,7 @@ div{
   background: linear-gradient(-45deg, #fc466b, #3f5efb);
   background-size: 400% 400%;
   background-position: 50% 100%;
-  animation: bgshift 3s ease infinite;
+  animation: bgshift 1s ease infinite;
 }
 h1{
   color: white;
