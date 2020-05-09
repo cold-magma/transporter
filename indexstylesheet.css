@@ -18,7 +18,7 @@ div{
   background: linear-gradient(-45deg, #fc466b, #3f5efb);
   background-size: 400% 400%;
   background-position: 50% 100%;
-  animation: shift 3s ease infinite;
+  animation: bgshift 3s ease infinite;
 }
 h1{
   color: white;
@@ -26,7 +26,7 @@ h1{
   font-size: 3rem;
   letter-spacing: 1rem;
 }
-@keyframes shift{
+@keyframes bgshift{
   0%{
     background-position: 0% 50%;
   }
