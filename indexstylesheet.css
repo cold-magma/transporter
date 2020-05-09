@@ -13,6 +13,12 @@ body{
   background-position: 50% 100%;
   animation: shift 5s ease infinite;
 }
+h1{
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
 @keyframes shift{
   0%{
     background-position: 50% 100%;
