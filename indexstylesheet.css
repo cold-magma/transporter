@@ -9,18 +9,18 @@ body{
   align-items: center;
   justify-content: space-around;
   background: linear-gradient(45deg, #333333, #dd1818);
-  background-size: 200% 200%;
-  background-position: 0% 0%;
+  background-size: 400% 400%;
+  background-position: 50% 100%;
   animation: shift 5s ease infinite;
 }
 @keyframes shift{
   0%{
-    background-position: 0% 0%;
+    background-position: 50% 100%;
   }
   50‰{
-    background-position: 200% 200%;
+    background-position: 200% 300%;
   }
   100%{
-    background-position: 0% 0%;
+    background-position: 50% 100%;
   }
 }
