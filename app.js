@@ -1,4 +1,4 @@
-window.body.addEventListener("click", onclick);
+document.body.addEventListener("click", onclick);
 var bg = document.getElementById("bg");
 var textbg = document.getElementById("textbg");
 
