@@ -20,7 +20,7 @@ div{
   background-size: 200% 200%;
   background-repeat: no-repeat;
   overflow: hidden;
-  animation: colorshift 5s ease infinite;
+  animation: colorshift 4s ease infinite;
 }
 h1{
   color: white;
