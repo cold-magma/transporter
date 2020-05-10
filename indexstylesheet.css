@@ -28,12 +28,12 @@ h1{
   font-size: 3rem;
   letter-spacing: 1rem;
   overflow: hidden;
-  background:linear-gradient(-45deg, #edae5c, #30e8bf, #7b9ed4);
+  background:linear-gradient(to right, #edae5c, #30e8bf, #7b9ed4);
   background-size: 200% 200%;
   background-repeat: no-repeat;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
-  animation: textshift 5s ease infinite;
+  animation: colorshift 5s ease infinite;
 }
 @keyframes colorshift {
   0%{
