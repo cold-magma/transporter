@@ -33,7 +33,7 @@ h1{
   background-repeat: no-repeat;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
-  animation: colorshift 5s ease infinite;
+  animation: textshift 5s ease infinite;
 }
 @keyframes colorshift {
   0%{
@@ -50,14 +50,8 @@ h1{
   0%{
     background-position: 0% 25%;
   }
-  25%{
-    background-position: 75% 50%;
-  }
   50%{
-    background-position: 50% 75%;
-  }
-  75%{
-    background-position: 50% 0%;
+    background-position: 100% 50%;
   }
   100%{
     background-position: 0% 25%;
