@@ -3,5 +3,10 @@ var bg = document.getElementById("bg");
 var textbg = document.getElementById("textbg");
 
 function onclick() {
-  document.body.getElementById('bg').classList;
+  newbg1 = "#" + (Math.random*0xFFFFF<<0).toString(16);
+ newbg2 = "#" + (Math.random*0xFFFFF<<0).toString(16);
+  newbgtext1 = "#" + (Math.random*0xFFFFF<<0).toString(16);
+  newbgtext2 = "#" + (Math.random*0xFFFFF<<0).toString(16);
+  
+  bg.style.background = 
 }
