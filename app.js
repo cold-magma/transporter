@@ -18,9 +18,11 @@ function onclick() {
     onclick();
  
   inv.style.opacity="1";
-  setTimeout(function() {bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
-  inv.style.opacity="0";
-  bg.style.backgroundSize = "200% 200%";
-  bg.style.backgroundRepeat = "no-repeat";}, 2000);
+  setTimeout(function() {
+    bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
+    inv.style.opacity="0";
+    bg.style.backgroundSize = "200% 200%";
+    bg.style.backgroundRepeat = "no-repeat";
+  }, 2000);
   
 }
