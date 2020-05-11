@@ -13,7 +13,7 @@ function onclick() {
   
   if(newbg1.length<7 || newbg2.length<7||newbgtext1.length<7||newbgtext2.length<7)
     onclick();
-   if(newbg1 == newbg2 || newbgtext2==newbgtext1 || || newbg1 == newbgtext1 || newbg1 == newbgtext2 || newbg2 == newbgtext1 || newbg2 == newbgtext2)
+   if(newbg1 == newbg2 || newbgtext2==newbgtext1 || newbg1 == newbgtext1 || newbg1 == newbgtext2 || newbg2 == newbgtext1 || newbg2 == newbgtext2)
     onclick();
  
   inv.style.opacity="1";
