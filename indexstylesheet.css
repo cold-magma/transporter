@@ -8,11 +8,7 @@ body{
   display:flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(-45deg, #ec2f4b, #3f5efb);
-  background-size: 200% 200%;
-  background-repeat: no-repeat;
   overflow: hidden;
-  animation: colorshift 4s ease infinite;
 }
 div{
   width: 100%;
@@ -20,7 +16,11 @@ div{
   display:flex;
   align-items: center;
   justify-content: space-around;
-  
+  background: linear-gradient(-45deg, #ec2f4b, #3f5efb);
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  animation: colorshift 4s ease infinite;
 }
 h1{
   color: white;
