@@ -1,7 +1,6 @@
 var bg = document.getElementById("bg")
 var textbg = document.getElementById("textbg")
 
-bg.style.transition="all 2s ease";
 document.body.addEventListener("click", onclick);
 
 function onclick() {
