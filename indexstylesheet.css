@@ -34,10 +34,8 @@ h1{
   -webkit-text-fill-color: transparent;
   animation: textshift 5s ease infinite;
 }
-body{
-  transition: all 2s ease;
-}
 div{
+  transition: all 2s ease;
   animation: colorshift 4s ease infinite;
 }
 @keyframes colorshift {
