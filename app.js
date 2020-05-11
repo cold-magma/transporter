@@ -1,6 +1,8 @@
 var bg = document.getElementById("bg");
+var inv = document.getElementById("inv");
 var textbg = document.getElementById("textbg");
 
+inv.style.opacity="0";
 document.body.addEventListener("click", onclick);
 
 function onclick() {
@@ -14,8 +16,10 @@ function onclick() {
     onclick();
    if(newbg1 == newbg2)
     onclick();
-  
+ 
+  inv.style.opacity="1";
   bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
+  inv.styl.opacity="0";
   bg.style.backgroundSize = "200% 200%";
   bg.style.backgroundRepeat = "no-repeat";
 }
