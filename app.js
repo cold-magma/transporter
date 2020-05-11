@@ -14,5 +14,6 @@ function onclick() {
     onclick();
   
   bg.style.background = newbg1;
+  console.log("yo");
   textbg.style.background = linear-gradient(to right,newbgtext1, newbgtext2, newbgtext3);
 }
