@@ -14,5 +14,5 @@ function onclick() {
     onclick();
   
   bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
-  textbg.style.background = "linear-gradient(to right," + newbgtext1+"," + newbgtext2 + "," + newbgtext3 +")";
+  
 }
