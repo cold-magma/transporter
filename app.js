@@ -1,5 +1,5 @@
-var bg = document.getElementById("bg");
-var textbg = document.getElementById("textbg");
+var bg = document.getElementById("bg")
+var textbg = document.getElementById("textbg")
 
 document.body.addEventListener("click", onclick);
 
