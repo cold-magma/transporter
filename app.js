@@ -18,8 +18,8 @@ function onclick() {
     onclick();
  
   inv.style.opacity="1";
-  bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
-  inv.style.opacity="0";
+  setTimeout(function() {bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
   bg.style.backgroundSize = "200% 200%";
-  bg.style.backgroundRepeat = "no-repeat";
+  bg.style.backgroundRepeat = "no-repeat";}, 2000);
+  inv.style.opacity="0";
 }
