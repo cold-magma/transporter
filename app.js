@@ -16,5 +16,5 @@ function onclick() {
     onclick();
   
   bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
-  bg.style.backgroundSize = "200% 200%"
+  bg.style.backgroundSize = "200% 200%";
 }
