@@ -10,7 +10,7 @@ body{
   justify-content: space-around;
   overflow: hidden;
 }
-div{
+#bg{
   width: 100%;
   height: 100vh;
   display:flex;
@@ -34,9 +34,15 @@ h1{
   -webkit-text-fill-color: transparent;
   animation: textshift 5s ease infinite;
 }
-div{
+#bg{
   transition: all 2s ease;
   animation: colorshift 4s ease infinite;
+}
+#inv{
+  position:absolute;
+  top: 0;
+  left: 0;
+  background:#535353;
 }
 @keyframes colorshift {
   0%{
