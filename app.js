@@ -14,7 +14,7 @@ function onclick() {
   
   if(newbg1.length<7 || newbg2.length<7||newbgtext3.length<7||newbgtext1.length<7||newbgtext2.length<7)
     onclick();
-   if(newbg1 == newbg2)
+   if(newbg1 == newbg2 || newbgtext2==newbgtext1 || newbgtext1==newbgtext3 || newbgtext2==newbgtext3 || newbg1 == newbgtext3 || newbg1 == newbgtext1 || newbg1 == newbgtext2 || newbg2 == newbgtext1 || newbg2 == newbgtext2 || newbg2 == newbgtext3)
     onclick();
  
   inv.style.opacity="1";
@@ -23,6 +23,11 @@ function onclick() {
     inv.style.opacity="0";
     bg.style.backgroundSize = "200% 200%";
     bg.style.backgroundRepeat = "no-repeat";
+    textbg.style.background = "linear-gradient(-45deg," + newbgtext1 +"," + newbgtext2 + "," + newbgtext3 + ")";
+    textbg.style.backgroundSize = "200% 200%";
+    textbg.style.backgroundRepeat = "no-repeat";
+    textbg.style.webkitBackgroundClip = "text";
+    textbg.style.webkitTextFillColor= "transparent";
   }, 500);
   
 }
