@@ -21,6 +21,7 @@ div{
   background-repeat: no-repeat;
   overflow: hidden;
   animation: colorshift 4s ease infinite;
+  transition: all 4s ease;
 }
 h1{
   color: white;
