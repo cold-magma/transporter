@@ -14,6 +14,4 @@ function onclick() {
     onclick();
   
   bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ");";
-  bg.style.animation= "colorshift 4s ease infinite;";
-  
 }
