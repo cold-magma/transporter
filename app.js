@@ -1,7 +1,7 @@
 var bg = document.getElementById("bg");
-var textbg = document.getElementById("textbg"):
+var textbg = document.getElementById("textbg");
 
-window.addEventListener("click", onclick);
+document.body.addEventListener("click", onclick);
 
 function onclick() {
   newbg1 = "#" + (Math.random*0xFFFFF<<0).toString(16);
