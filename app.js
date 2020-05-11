@@ -1,6 +1,7 @@
-var bg = document.getElementById("bg")
-var textbg = document.getElementById("textbg")
+var bg = document.getElementById("bg");
+var textbg = document.getElementById("textbg");
 
+bg.style.transition = "all 2s ease";
 document.body.addEventListener("click", onclick);
 
 function onclick() {
@@ -17,5 +18,4 @@ function onclick() {
   
   bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
   bg.style.backgroundSize = "200% 200%";
-  bg.style.transition = "all 2s ease";
 }
