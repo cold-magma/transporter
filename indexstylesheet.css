@@ -43,6 +43,7 @@ h1{
   top: 0;
   left: 0;
   background:#535353;
+  transition:all 2s ease;
 }
 @keyframes colorshift {
   0%{
