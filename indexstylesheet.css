@@ -20,7 +20,6 @@ div{
   background-size: 200% 200%;
   background-repeat: no-repeat;
   overflow: hidden;
-  animation: colorshift 4s ease infinite;
 }
 h1{
   color: white;
@@ -37,6 +36,9 @@ h1{
 }
 body{
   transition: all 2s ease;
+}
+div{
+  animation: colorshift 4s ease infinite;
 }
 @keyframes colorshift {
   0%{
