@@ -13,6 +13,7 @@ function onclick() {
   if(newbg1.length<7 || newbg2.length<7||newbgtext3.length<7||newbgtext1.length<7||newbgtext2.length<7)
     onclick();
   
-  bg.style.background = newbg1;
+  bg.style.background = "linear-gradient(45deg," + newbg1 +"," + newbg2 + ")";
+  textbg.style.background = "linear-gradient(to right," + newbgtext1+"," + newbgtext2 + "," + newbgtext3 +")";
   console.log("yo");
 }
