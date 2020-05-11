@@ -45,7 +45,7 @@ h1{
   width:100%;
   height:100vh;
   background:#535353;
-  transition:all 2s ease;
+  transition:all 0.75s ease;
 }
 @keyframes colorshift {
   0%{
