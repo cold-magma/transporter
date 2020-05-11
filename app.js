@@ -15,5 +15,6 @@ function onclick() {
    if(newbg1 == newbg2)
     onclick();
   
-  bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ") 200% 200% no-repeat ";
+  bg.style.background = "linear-gradient(-45deg," + newbg1 +"," + newbg2 + ")";
+  bg.style.backgroundSize = "200% 200%"
 }
