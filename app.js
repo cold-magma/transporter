@@ -23,6 +23,6 @@ function onclick() {
     inv.style.opacity="0";
     bg.style.backgroundSize = "200% 200%";
     bg.style.backgroundRepeat = "no-repeat";
-  }, 2000);
+  }, 500);
   
 }
