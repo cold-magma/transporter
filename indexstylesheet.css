@@ -32,7 +32,7 @@ h1{
   background-repeat: no-repeat;
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
-  animation: textshift 5s ease infinite;
+  animation: textshift 4s ease infinite;
 }
 #bg{
   transition: all 2s ease;
