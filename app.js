@@ -15,7 +15,10 @@ function onclick() {
     onclick();
   if(newbg1 == newbg2 || newbgtext2==newbgtext1 || newbg1 == newbgtext1 || newbg1 == newbgtext2 || newbg2 == newbgtext1 || newbg2 == newbgtext2)
     onclick();
-  if (similar(getRGB(newbg1),getRGB(newbg2)) && similar (){
+  if (similar(getRGB(newbg1),getRGB(newbg2)) ||
+  similar(getRGB(newbgtext1),getRGB(newbgtext2))||
+  similar(getRGB(newbgtext2),getRGB(newbg2))||
+  similar(getRGB(newbgtext1),getRGB(newbg1))){
     onclick();
   }
  
