@@ -13,8 +13,11 @@ function onclick() {
   
   if(newbg1.length<7 || newbg2.length<7||newbgtext1.length<7||newbgtext2.length<7)
     onclick();
-   if(newbg1 == newbg2 || newbgtext2==newbgtext1 || newbg1 == newbgtext1 || newbg1 == newbgtext2 || newbg2 == newbgtext1 || newbg2 == newbgtext2)
+  if(newbg1 == newbg2 || newbgtext2==newbgtext1 || newbg1 == newbgtext1 || newbg1 == newbgtext2 || newbg2 == newbgtext1 || newbg2 == newbgtext2)
     onclick();
+  if (similar(getRGB(newbg1),getRGB(newbg2)) && similar (){
+    onclick();
+  }
  
   inv.style.opacity="1";
   setTimeout(function() {
@@ -28,5 +31,14 @@ function onclick() {
     textbg.style.webkitBackgroundClip = "text";
     textbg.style.webkitTextFillColor= "transparent";
   }, 500);
-  
+}
+function getRGB(color) {
+  color = parseInt(color.substring(1),16);
+  r=color>>16;
+  g=(color - (r<<16))>>8;
+  b = color - (r<<16) -(g<<8);
+  return [r,g,b];
+}
+function similar([r1,g1,b1],[r2,g2,b2]){
+  return Math.abs(r1-r2)+Math.abs(g1-g2)+Math.abs(b1-b2)<50;
 }
